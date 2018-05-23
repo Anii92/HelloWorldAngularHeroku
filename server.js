@@ -9,7 +9,7 @@ app.use (express.static (__ dirname + '/ dist'));
 
 app.get ('/ *', función (req, res) {
     
-res.sendFile (path.join (__ dirname + '/ dist / index.html'));
+res.sendFile (path.join (__ dirname + '/ dist / HelloWorld/ index.html'));
 });
 
 // Inicie la aplicación escuchando en el puerto Heroku predeterminado
